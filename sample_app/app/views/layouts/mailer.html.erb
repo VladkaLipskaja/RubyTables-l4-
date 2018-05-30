@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+<body>
+  <table> <caption>3.1</caption>
+    <tr>
+      <td class="example1"></td>
+      <td class="example1"></td>
+      <td class="example1"></td>
+      <td class="example1"></td>
+      <td class="example1"></td>
+      <td class="example1"></td>
+      <td class="example1"></td>
+    </tr>
+    <tr>
+      <td colspan="7"></td>
+    </tr>
+    <tr>
+      <td rowspan=5></td>
+      <td colspan=6></td>
+    </tr>
+    <tr>
+      <td rowspan=4></td>
+      <td colspan=5></td>
+    </tr>
+    <tr>
+      <td rowspan=3></td>
+      <td colspan=4></td>
+    </tr>
+    <tr>
+      <td rowspan=2></td>
+      <td colspan=3></td>
+    </tr>
+    <tr>
+      <td rowspan=1></td>
+      <td colspan=2></td>
+    </tr>
+  <body>
+    <%= yield %>
+  </body>
+</html>
